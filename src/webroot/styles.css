@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo {
+    width: 200px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-bottom: 20px; /* Añade un margen en la parte inferior para separar la imagen de la tabla */
+}
+#notebook {
+    width: 600px;
+    height: 800px;
+    background-color: #d3d3d3; /* color más oscuro */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+button:active {
+    background-color: #d32f2f;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#addItemForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#itemInput {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+#itemList {
+    margin-top: 20px;
+}
+
+button.edit {
+    background-color: #4CAF50; /* green */
+}
+
+button.up, button.down {
+    background-color: #2196F3; /* blue */
+}
